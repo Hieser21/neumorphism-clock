@@ -23,7 +23,7 @@ setInterval(clock, 1000) // 1000 = 1s
 const textHour = document.getElementById('text-hour'),
       textMinutes = document.getElementById('text-minutes'),
       textAmPm = document.getElementById('text-ampm'),
-    //   dateWeek = document.getElementById('date-day-week'),
+       dateWeek = document.getElementById('date-day-week'),
       dateDay = document.getElementById('date-day'),
       dateMonth = document.getElementById('date-month'),
       dateYear = document.getElementById('date-year')
@@ -35,7 +35,7 @@ const clockText = () =>{
         ampm,
         mm = date.getMinutes(),
         day = date.getDate(),
-        // dayweek = date.getDay(),
+        dayweek = date.getDay(),
         month = date.getMonth(),
         year = date.getFullYear()
 
