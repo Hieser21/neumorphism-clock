@@ -23,7 +23,7 @@ setInterval(clock, 1000) // 1000 = 1s
 const textHour = document.getElementById('text-hour'),
       textMinutes = document.getElementById('text-minutes'),
       textAmPm = document.getElementById('text-ampm'),
-       dateWeek = document.getElementById('date-day-week'),
+      dateWeek = document.getElementById('date-day-week'),
       dateDay = document.getElementById('date-day'),
       dateMonth = document.getElementById('date-month'),
       dateYear = document.getElementById('date-year')
@@ -63,7 +63,7 @@ const clockText = () =>{
 
     // We show the day, the month and the year
     dateDay.innerHTML = day
-    dateWeek.innerHTML = `${week[week.indexOf(dayweek)]}`
+    dateWeek.innerHTML = `${week[dayweek]}`
     dateMonth.innerHTML = `${months[month]},`
     dateYear.innerHTML = year
 }
