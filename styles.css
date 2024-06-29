@@ -89,7 +89,7 @@ body.dark-theme {
 body {
   margin: 0;
   font-family: var(--body-font);
-  background-color: var(--body-color);
+  background-image: url(https://img.freepik.com/premium-photo/color-explosion_103577-1850.jpg);
   color: var(--text-color);
 }
 
